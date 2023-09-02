@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: rgb(2, 161, 2);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* Add styles for the book list */
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Add styles for the individual book */
+.book {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.book img {
+  max-width: 120px;
+  height: 140px;
+  border-radius: 6px;
+}
+
+.book h3 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.book p {
+  color: #666;
+  margin-top: 5px;
+}
+
+/* Add styles for buttons */
+.add-to-cart,
+.remove-from-cart {
+  background-color: rgb(2, 161, 2);
+  color: white;
+  border: none;
+  cursor: pointer; /* Add cursor pointer for buttons */
+}
+
+.add-to-cart:hover,
+.remove-from-cart:hover {
+  background-color: rgb(182, 241, 182);
+}
+
+  
+  

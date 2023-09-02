@@ -1,0 +1,48 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Harry Potter",
+      "image": "https://cdn.pixabay.com/photo/2020/04/17/15/01/harry-potter-5055509_1280.jpg",
+      "price": 10.99
+    },
+    {
+      "id": 2,
+      "title": "The Cartoon History",
+      "image": "https://cdn.pixabay.com/photo/2015/12/30/21/40/graphic-novel-1114825_1280.jpg",
+      "price": 12.99
+    },
+    {
+      "id": 3,
+      "title": "Invisible Man",
+      "image": "https://cdn.pixabay.com/photo/2019/04/02/18/40/collage-4098460_640.jpg",
+      "price": 18.19
+    },
+    {
+      "id": 4,
+      "title": "The Future",
+      "image": "https://cdn.pixabay.com/photo/2020/10/27/09/26/book-5690114_640.jpg",
+      "price": 14.11
+    },
+    {
+      "id": 5,
+      "title": "Ice Breaker",
+      "image": "https://cdn.pixabay.com/photo/2020/05/15/13/28/reading-5173530_1280.jpg",
+      "price": 10.19
+    },
+    {
+      "id": 6,
+      "title": "The Locked Up",
+      "image": "https://cdn.pixabay.com/photo/2020/05/15/13/32/illumination-5173542_640.jpg",
+      "price": 18.99
+    }
+  ],
+  "cart": [
+    {
+      "title": "Ice Breaker",
+      "image": "https://cdn.pixabay.com/photo/2020/05/15/13/28/reading-5173530_1280.jpg",
+      "price": 10.19,
+      "id": 1
+    }
+  ]
+}
